@@ -1,1 +1,262 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bit-crypt</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: white;
+        }
+
+        h1.title {
+            color: black;
+            font-family: "Poppins", sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2px;
+        }
+
+        h1.ready-title {
+            font-size: 36px;
+        }
+
+
+        /* Header Styles */
+        header {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        .horizontal-menu ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .horizontal-menu ul li {
+            margin: 0 20px;
+        }
+
+        .horizontal-menu ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .horizontal-menu ul li a:hover {
+            color: #F8A001;
+            text-decoration: none;
+            border-bottom: 5px solid #F8A001;
+            margin-bottom: -20px; /* Move the underline slightly down */
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            background: #1A2D39;
+            padding: 10px;
+            min-height: 500px;
+        }
+
+        .under-main {
+            border: 1px solid #F8A001;
+            background-color: #0C1C3D;
+            margin: 10px 50px;
+            border-radius: 15px;
+            padding-bottom: 50px;
+        }
+
+        span.dec {
+            color: #F8A001;
+        }
+
+        /* Button Styles */
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .rounded-button {
+            border: 2px solid #F8A001;
+            background-color: #F8A001;
+            color: black;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 80px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+        }
+
+        .transparent-button:hover {
+            background-color: transparent;
+            color: #F8A001;
+            opacity: 0.7;
+        }
+
+        /* Email Section Styles */
+        .email-sec {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px 0px;
+        }
+
+        .email-sec label {
+            font-size: 22px;
+            text-align: left;
+            float: left;
+            flex: 1; /* Let the label take as much space as it needs */
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        .email-sec input {
+            background-color: #FFFFFF00;
+            border-color: #FFFFFF;
+            border-width: 0px 0px 2px 0px;
+            border-radius: 20px 20px 20px 20px;
+            height: 50px;
+            min-width: 500px;
+            flex: 2;
+            color: white;
+        }
+
+        .email-sec button {
+            color: white;
+            border: none;
+            float: right;
+            margin-left: 120px;
+        }
+
+        .email-sec button:hover {
+            background-color: white;
+            color: #F8A001;
+            opacity: 0.7;
+        }
+
+        /* Footer Styles */
+        footer {
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        footer nav.horizontal-menu-f {
+            float: left;
+            border-top: 1px solid white;
+            display: block;
+            width: 100%;
+            text-align: left;
+            color: white;
+            padding: 30px 0;
+        }
+
+        footer nav.horizontal-menu-f ul {
+            float: left;
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer nav.horizontal-menu-f ul li {
+            margin: 0 20px;
+        }
+
+        footer nav.horizontal-menu-f ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer p.copy {
+            text-align: left;
+            font-size: 14px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+
+
+
+
+
+    </style>
+
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Bootstrap JS and Popper.js (Optional) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Bit Crypt</h1>
+      <nav class="horizontal-menu">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li> | </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-content">
+      <!-- Your main content goes here -->
+      <div class="under-main">
+        <h1 class="ready-title">Are you ready <span class="dec">to play?</span></h1>
+        <h3><span class="dec">Step 1/4 </span> (Duration : 15 seconds in total)</h3>
+        <img src="img.gif">
+        <div class="button-container">
+          <button class="rounded-button transparent-button">Yes</button>
+          <button class="rounded-button transparent-button">No</button>
+        </div>
+      </div>
+      <footer>
+        <section>
+          <div class="email-sec">
+            <label>Bit-Crypt</label>
+            <input type="text" name="email" placeholder="Email">
+            <button type="submit" class="rounded-button">SEND</button>
+          </div>
+          <nav class="horizontal-menu-f" style="float: left; border-top: 1px solid white;">
+            <ul>
+              <li><a href="#">Legal Notice</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </section>
+        <p class="copy">Copyright bit-crypt.com© 2023 . </p>
+      </footer>
+    </section>
+  </body>
+</html>
